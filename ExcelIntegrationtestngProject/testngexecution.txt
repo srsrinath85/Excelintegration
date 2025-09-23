@@ -1,0 +1,11 @@
+for executing testng framework locally and jenkins mention belowsteps
+
+mvn test -DbrowserMode=headl -DcredsFilePath="src/test/resources/Credentials.properties.txt"
+ -DthreadCount=1 -Denv=stage -Dbrowser=chrome -Dtest=WebTesting
+
+jenkins:-
+
+cd C:\Users\srinath\Desktop\ExcelIntegrationtestngProject
+mvn test -DbrowserMode=headl -DcredsFilePath="src/test/resources/Credentials.properties.txt"
+ -DthreadCount=1 -Denv=stage -Dbrowser=chrome -Dtest=WebTesting
+ 

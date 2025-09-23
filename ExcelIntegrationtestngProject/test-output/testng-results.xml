@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-23T16:22:16 IST" name="Default Suite" finished-at="2025-09-23T16:23:08 IST" duration-ms="51262">
+    <groups>
+    </groups>
+    <test started-at="2025-09-23T16:22:16 IST" name="ExcelIntegrationtestngProject" finished-at="2025-09-23T16:23:08 IST" duration-ms="51262">
+      <class name="Testsuite.WebTesting">
+        <test-method is-config="true" signature="BrowserExecution()[pri:0, instance:Testsuite.WebTesting@5223e5ee]" started-at="2025-09-23T16:22:18 IST" name="BrowserExecution" finished-at="2025-09-23T16:22:32 IST" duration-ms="14268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserExecution -->
+        <test-method signature="createCustomer(java.util.Map)[pri:0, instance:Testsuite.WebTesting@5223e5ee]" started-at="2025-09-23T16:22:32 IST" name="createCustomer" data-provider="excelDataProvider" finished-at="2025-09-23T16:22:56 IST" duration-ms="23973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Contact Number=9.877667564E9, pin code=560100.0, Address=Bengaluru, Koovers Category=WHOLESALE, City=Bengaluru, phone number=9.877667567E9, Name=Cuairegsdaf, mobile number=9.877667569E9, New koovers Category=WHOLESALE, vehicleSegment=PASSENGER VEHICLES, state=Karnataka, first_name=Sai, status=ACTIVE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="webclose()[pri:0, instance:Testsuite.WebTesting@5223e5ee]" started-at="2025-09-23T16:22:56 IST" name="webclose" finished-at="2025-09-23T16:22:56 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webclose -->
+        <test-method is-config="true" signature="createDb()[pri:0, instance:Testsuite.WebTesting@5223e5ee]" started-at="2025-09-23T16:22:56 IST" name="createDb" finished-at="2025-09-23T16:23:08 IST" duration-ms="11542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDb -->
+      </class> <!-- Testsuite.WebTesting -->
+    </test> <!-- ExcelIntegrationtestngProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>
